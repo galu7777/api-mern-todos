@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const db = mongoose.connection;
-const uri = "mongodb://127.0.0.1:27017/todoDataBase"
+const uri = "mongodb://mongo:NkddVMhRNqc6nSdv0r78@containers-us-west-72.railway.app:6509"
 mongoose.set('strictQuery', false)
 
 function connectDB() {
